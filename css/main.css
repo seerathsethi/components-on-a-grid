@@ -56,5 +56,29 @@ header h1{
 }
 
 header img{
+ grid-area: header;
+ grid-column: 1/3;
+ grid-row: 1/3;
+}
+
+nav{
+  grid-area: header;
+  grid-column: 2;
+  grid-row: 1;
+  font-family: "Patua one", sans-serif;
+  font-size: 2rem;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+main{
+  display: grid;
+  grid-area: main;
+  grid-template-columns: 1fr 1fr;
+  z-index: 4;
+  gap: 1rem;
+}
+
+figure {
 
 }
