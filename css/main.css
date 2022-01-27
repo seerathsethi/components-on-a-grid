@@ -80,5 +80,15 @@ main{
 }
 
 figure {
+ margin: 0;
+}
 
+h2{
+  color: #30658d;
+  font-family: "Patua one", cursive;
+  margin: 1rem 0 0;
+}
+
+p{
+  margin: 0;
 }
